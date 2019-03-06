@@ -1,0 +1,44 @@
+.main-body {
+	float: left;
+	width: 100%;
+	padding: 50px 0px;
+}
+
+
+.main-body.step-one {
+	background: #7aaf42;
+	color: #fff;
+}
+
+.main-body.step-one .step-head {
+	float: left;
+	max-width: 300px;
+	width: 100%;
+	margin-bottom: 35px;
+}
+
+
+
+.mainbody.step-one .add-shop-name {
+	
+}
+
+
+
+
+.main-body.step-one .shop-option {
+	float: left;
+	width: 100%;
+	border-top: 1px solid #a7c983;
+	margin-top: 50px;
+}
+
+
+
+.main-body.step-one .shop-option .trigger-shop {
+	float: left;
+	width: auto;
+	color: #f7f7f7;
+	padding: 10px 0px;
+	cursor: pointer;
+}

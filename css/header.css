@@ -1,0 +1,186 @@
+body {
+	position: relative;
+	overflow-x:hidden;
+}
+
+.site-header {
+    float: left;
+    width: 100%;
+    height: 40px;
+    background:#fff;
+    color: #333;
+    position: fixed;
+    z-index:9;
+    box-shadow: 0px 1px 100px rgba(11,168,190,0.3);
+}
+
+
+.site-header .container-fluid{
+    height: 100%;
+}
+
+
+
+.site-header .site-logo {
+	float: left;
+    height: 100%;
+    padding: 2px 0px;
+    display:block;
+}
+
+
+.site-header .menu-icon {
+	float: right;
+    height: 100%;
+    font-size: 18px;
+    line-height: 40px;
+   /* padding: 10px 0px;*/
+    display:block;
+    /*background: red;*/
+    cursor: pointer;
+}
+
+
+
+.navigation-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height:100vh;
+	width:100%;
+	background: rgba(0,0,0,.3);
+	overflow: hidden;
+	z-index:10;
+	opacity:1;
+	transition: .3s;
+	visibility: visible;
+}
+
+
+
+
+.navigation-container.hidemenu {
+	left: 10px;
+	opacity:0;
+	z-index: 9;
+	transition: .3s;
+	visibility: hidden;
+}
+
+
+
+.navigation-container .site-navigation {
+	float:right;
+	width: 200px;
+	min-height: 100%;
+	background: #fff;
+	list-style:none;
+	padding:0;
+	margin: 0;
+}
+
+
+
+.navigation-container .site-navigation a {
+	text-decoration:none;
+	color: #333;
+}
+
+
+
+.navigation-container .site-navigation li.nav-item {
+	float:left;
+	width: 100%;
+	padding: 7px 10px;
+	background: #fff;
+	list-style:none;
+	color:#333;
+	transition: padding .3s;
+}
+
+
+
+
+.navigation-container .site-navigation li.nav-item:hover {
+	padding-left: 15px;
+	background: green;
+	color:#fff;
+	transition: padding .3s;
+	
+}
+
+
+
+
+/*Menu title*/
+
+.navigation-container .site-navigation .menu-header {
+	float: left;
+	width: 100%;
+	background: #fff;
+	color: #222;
+	border-bottom: 1px solid #ccc;
+}
+
+
+
+
+.navigation-container .site-navigation .menu-header .menu-title {
+	float: left;
+	width: auto;
+	padding: 10px;
+}
+
+
+.navigation-container .site-navigation .menu-header .menu-close-icon {
+	float: right;
+	padding: 11px 15px;
+	font-size: 18px;
+	transition: .3s;
+	cursor: pointer;
+	-ms-text-align-last: center;
+	    text-align-last: center;
+}
+
+
+
+
+.navigation-container .site-navigation 
+.menu-header .menu-close-icon:hover {
+	/*font-size: 20px;*/
+	color: white;
+	transition: .3s;
+	background: green;
+	
+}
+
+
+
+/*Empty space on menu*/
+.navigation-container .empty-space {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right:200px;
+}
+
+
+
+
+
+
+
+/*Clear away from the nav*/
+.clear-horizontal-nav {
+  float: left;
+  width: 100%;
+  margin-top: 40px;
+}
+
+
+
+
+
+
+

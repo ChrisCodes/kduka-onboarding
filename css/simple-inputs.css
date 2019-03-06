@@ -1,0 +1,57 @@
+
+.input-group {
+	clear: both;
+	float: left;
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+ .input-group .field-label {
+ 	float: left;
+ 	width: 100%;
+ 	padding: 5px 0px;
+ 	font-weight: 300;
+ 	margin-bottom: 5px;
+ 	font-size: 18px;
+ }
+
+
+ .input-group .mat_input_field {
+ 	border:0px;
+ 	outline:0px !important;
+ 	background:none;
+ 	border-bottom: 1px solid #ccc;
+ 	float: left;
+ 	width: 100%;
+ 	padding: 5px;
+ }
+
+select.mat_input_field {
+outline: none;
+border: none;
+}
+
+
+select.mat_input_field:focus {
+outline: none;
+}
+
+
+ .mat_input_field {
+ 	border:none;
+ 	outline:none;
+ 	background:none;
+ 	border-bottom: 1px solid #ccc;
+ 	float: left;
+ 	width: 100%;
+ 	padding: 5px;
+ }
+
+
+ .input-group label.error {
+ 	float: left;
+ 	width: 100%;
+ 	padding: 5px 0px;
+ 	font-weight: 400;
+ 	color: red;
+ }
