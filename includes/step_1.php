@@ -24,7 +24,10 @@
 
 		<!-- Input button -->
 		<div class="input-group">
-			<input type="submit" class="button white-first" value="Create" />
+			<!-- <input type="submit" class="button white-first" value="Create" /> -->
+
+			<a href="?step=2" class="button white-first">Create</a>
+			
 		</div>
 
 

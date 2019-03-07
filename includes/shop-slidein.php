@@ -1,4 +1,9 @@
 <div class="shop-slidein-wrapper hideshop">
+
+	<div class="empty-space">
+		
+	</div>
+	
 	<div class="products-area">
 		<div class="products-slide">
 			

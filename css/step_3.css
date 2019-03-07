@@ -1,0 +1,62 @@
+.main-body.step-three {
+	background:#fff;
+	padding: 0;
+}
+
+
+
+.main-body.step-three .banner-sect {
+	clear: both;
+	float: left;
+	width: 100%;
+	background: #7aaf42;
+	color:#fff;
+	padding: 50px 0px 30px 0px;
+	/*border: 1px solid red;*/
+}
+
+
+.main-body.step-three .themes-section {
+	float: left;
+	width: 100%;
+	clear: both;
+}
+
+
+
+.main-body.step-three .themes-section .one-theme {
+	float: left;
+	width: 100%;
+	height: 250px;
+	background: #888;
+	margin-bottom: 30px;
+	cursor: pointer;
+}
+
+
+.main-body.step-three .themes-section .one-theme.selected {
+	border: 3px solid red;
+}
+
+
+
+.main-body.step-three .preview-sect {
+	position: fixed;
+	bottom: 0px;
+	left:0;
+	top: auto;
+	width: 100%;
+	padding: 5px 0px;
+	background: #7aaf42;
+	transition: .3s;
+}
+
+
+
+
+.main-body.step-three .preview-sect.hidden {
+	top: calc(100vh + 60px);
+	bottom: auto;
+	transition: .3s;
+	
+}

@@ -16,9 +16,21 @@
 
 
 
+.shop-slidein-wrapper .empty-space {
+	position: absolute;
+	top:0px;
+	left:0px;
+	right: 0px;
+	bottom:0px;
+}
+
+
+
+
+
 .shop-slidein-wrapper.hideshop {
 	left:10px;
-	z-index: 9;
+	z-index: 8;
 	opacity: 0;
 	visibility: hidden;
 	transition: .5s;
@@ -165,6 +177,16 @@
 
 /*Styling for Desktop*/
 @media screen and (min-width:769px) {
+
+
+	.shop-slidein-wrapper .empty-space {
+		position: absolute;
+		top:0px;
+		left:0px;
+		right: 50%;
+		bottom:0px;
+	}
+
 
 
 	.shop-slidein-wrapper .products-area {
