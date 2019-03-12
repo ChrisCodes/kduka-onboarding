@@ -40,6 +40,9 @@
 	<title><?php echo $page_title; ?></title>
 	<meta name="description" content="<?php echo $page_desc; ?>">
 
+	<!-- Responsiveness -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<?php include("includes/head.php"); ?>
 
 </head>
