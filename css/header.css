@@ -103,7 +103,7 @@ body {
 
 .navigation-container .site-navigation li.nav-item:hover {
 	padding-left: 15px;
-	background: green;
+	background: #7aaf42;
 	color:#fff;
 	transition: padding .3s;
 	
@@ -150,7 +150,7 @@ body {
 	/*font-size: 20px;*/
 	color: white;
 	transition: .3s;
-	background: green;
+	background: #7aaf42;
 	
 }
 

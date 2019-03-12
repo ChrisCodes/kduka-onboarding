@@ -1,7 +1,7 @@
 .main-body {
 	float: left;
 	width: 100%;
-	padding: 50px 0px;
+	/*padding: 50px 0px;*/
 	min-height: 100vh;
 }
 
@@ -9,6 +9,7 @@
 .main-body.step-one {
 	background: #7aaf42;
 	color: #fff;
+	position: relative
 }
 
 .main-body.step-one .step-head {
@@ -20,8 +21,17 @@
 
 
 
-.mainbody.step-one .add-shop-name {
-	
+div.main-contentx {
+	width: 100%;
+	max-width: 400px;
+	float:none;
+	overflow: auto;
+	margin: 0 auto;
+}
+
+
+.main-body.step-one .right-banner-image {
+	display: none;
 }
 
 
@@ -42,4 +52,96 @@
 	color: #f7f7f7;
 	padding: 10px 0px;
 	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Styling for desktop*/
+@media screen and (min-width: 769px) {
+
+	.main-body.step-one .step-head {
+		float: left;
+		max-width: 300px;
+		width: 100%;
+		margin-bottom: 35px;
+		font-size: 40px;
+		font-weight: 700;
+	}
+
+
+
+
+	.main-body.step-one .right-banner-image {
+		position: absolute;
+		top:40px;
+		right: 0px;
+		bottom: 0px;
+		background: red;
+		background: url("../images/banners/shopping-lady.jpg");
+		-webkit-background-size: cover;
+		     -o-background-size: cover;
+		        background-size: cover;
+		background-position: center;
+		display: block;
+	}
+
+
+
+	.main-body.step-one .right-banner-image:hover 
+	.stat-slide-box {
+		right: 0px;
+
+	}
+
+
+
+	.main-body.step-one .right-banner-image 
+	.stat-slide-box {
+		position: absolute;
+		right: -50%;
+		width: 50%;
+		bottom: 50px;
+		background: #fff;
+		padding: 20px;
+	}
+
+
+
+
+	.main-body.step-one .right-banner-image 
+	.stat-slide-box .stat-desc {
+		float: right;
+		width: calc(100% - 90px);
+		font-size: 20px;
+		font-weight: 400;
+		color: #555;
+	}
+
+
+	.main-body.step-one .right-banner-image 
+	.stat-slide-box .stat-data {
+		float: right;
+		margin-right: 10px;
+		font-size: 35px;
+		font-weight: 600;
+		color: #7aaf42;
+		width:80px;
+	}
+
+
+
+	
+
+
+
+
 }
